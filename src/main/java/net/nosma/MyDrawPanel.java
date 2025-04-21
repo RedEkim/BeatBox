@@ -10,6 +10,9 @@ public class MyDrawPanel extends JPanel {
 
         frame.add(new MyDrawPanel());
 
+        JButton button = new JButton("click");
+        frame.add(BorderLayout.SOUTH, button);
+
         frame.setSize(300, 300);
 
         frame.setVisible(true);
