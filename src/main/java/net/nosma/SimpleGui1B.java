@@ -23,6 +23,11 @@ public class SimpleGui1B implements ActionListener {
         frame.setVisible(true);
     }
     public void actionPerformed(ActionEvent event) {
-        button.setText("I've been clicked!");
+        if (button.getText().equals("click me")) {
+            button.setText("I've been clicked!");
+        } else {
+            button.setText("click me");
+        }
+
     }
 }
