@@ -16,9 +16,11 @@ public class Panel1 {
 
         JButton button = new JButton("shock me");
         JButton buttonTwo = new JButton("bliss");
+        JButton buttonThree = new JButton("unhappy");
 
         panel.add(button);
         panel.add(buttonTwo);
+        panel.add(buttonThree);
         frame.getContentPane().add(BorderLayout.EAST,panel);
 
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
